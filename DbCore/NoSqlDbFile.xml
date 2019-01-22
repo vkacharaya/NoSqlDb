@@ -1,0 +1,284 @@
+
+  <db>
+    <dbRecord>
+      <key>
+        DateTime
+      </key>
+      <value>
+        <name>
+          DateTime.cpp
+        </name>
+        <description>
+          Represents clock time
+        </description>
+        <datetime>
+          Thu Feb  8 23:10:54 2018
+        </datetime>
+        <childCollection>
+          <child>
+            DbCore
+          </child>
+        </childCollection>
+      </value>
+      <payload>
+        <filepath>
+          ../DateTime
+        </filepath>
+        <categoryList>
+          <category>
+            Utility
+          </category>
+          <category>
+            DateTime
+          </category>
+        </categoryList>
+      </payload>
+    </dbRecord>
+    <dbRecord>
+      <key>
+        Persistence
+      </key>
+      <value>
+        <name>
+          Persistence.h
+        </name>
+        <description>
+          Used for saving data
+        </description>
+        <datetime>
+          Thu Feb  8 23:10:54 2018
+        </datetime>
+        <childCollection>
+          <child>
+            Executive
+          </child>
+        </childCollection>
+      </value>
+      <payload>
+        <filepath>
+          ../Persistence
+        </filepath>
+        <categoryList>
+          <category>
+            Save File
+          </category>
+          <category>
+            Load File
+          </category>
+        </categoryList>
+      </payload>
+    </dbRecord>
+    <dbRecord>
+      <key>
+        DbCore
+      </key>
+      <value>
+        <name>
+          DbCore.h
+        </name>
+        <description>
+          Implements NoSql database
+        </description>
+        <datetime>
+          Thu Feb  8 23:10:54 2018
+        </datetime>
+        <childCollection>
+          <child>
+            Persistence
+          </child>
+          <child>
+            Query
+          </child>
+        </childCollection>
+      </value>
+      <payload>
+        <filepath>
+          ../DbCore
+        </filepath>
+        <categoryList>
+          <category>
+            Core File
+          </category>
+          <category>
+            Db Core
+          </category>
+        </categoryList>
+      </payload>
+    </dbRecord>
+    <dbRecord>
+      <key>
+        XMLParser
+      </key>
+      <value>
+        <name>
+          Replaced Name
+        </name>
+        <description>
+          Replaced Description
+        </description>
+        <datetime>
+          Thu Feb  8 23:10:54 2018
+        </datetime>
+        <childCollection>
+          <child>
+            Query
+          </child>
+          <child>
+            DbCore
+          </child>
+        </childCollection>
+      </value>
+      <payload>
+        <filepath>
+          Overwritten FP1
+        </filepath>
+        <categoryList>
+          <category>
+            Overwritten PL1
+          </category>
+          <category>
+            Overwritten PL2
+          </category>
+        </categoryList>
+      </payload>
+    </dbRecord>
+    <dbRecord>
+      <key>
+        Executive
+      </key>
+      <value>
+        <name>
+          Executive.cpp
+        </name>
+        <description>
+          Used for writing test cases
+        </description>
+        <datetime>
+          Thu Feb  8 23:10:54 2018
+        </datetime>
+        <childCollection>
+        </childCollection>
+      </value>
+      <payload>
+        <filepath>
+          ../Executive
+        </filepath>
+        <categoryList>
+          <category>
+            Test File
+          </category>
+          <category>
+            Test Cases
+          </category>
+        </categoryList>
+      </payload>
+    </dbRecord>
+    <dbRecord>
+      <key>
+        XmlDocument
+      </key>
+      <value>
+        <name>
+          XmlDocument.cpp
+        </name>
+        <description>
+          Xml manipulation
+        </description>
+        <datetime>
+          Thu Feb  8 23:10:54 2018
+        </datetime>
+        <childCollection>
+          <child>
+            Persistence
+          </child>
+        </childCollection>
+      </value>
+      <payload>
+        <filepath>
+          ../XmlDocument
+        </filepath>
+        <categoryList>
+          <category>
+            Utility
+          </category>
+          <category>
+            xml
+          </category>
+        </categoryList>
+      </payload>
+    </dbRecord>
+    <dbRecord>
+      <key>
+        Query
+      </key>
+      <value>
+        <name>
+          Query.cpp
+        </name>
+        <description>
+          Used for querying database
+        </description>
+        <datetime>
+          Thu Feb  8 23:10:54 2018
+        </datetime>
+        <childCollection>
+          <child>
+            Executive
+          </child>
+        </childCollection>
+      </value>
+      <payload>
+        <filepath>
+          ../Query
+        </filepath>
+        <categoryList>
+          <category>
+            Select
+          </category>
+          <category>
+            Union
+          </category>
+        </categoryList>
+      </payload>
+    </dbRecord>
+    <dbRecord>
+      <key>
+        XmlElementParts
+      </key>
+      <value>
+        <name>
+          XmlElementParts.h
+        </name>
+        <description>
+          Contains functions to split XML
+        </description>
+        <datetime>
+          Sat Jan 27 21:00:00 2018
+        </datetime>
+        <childCollection>
+          <child>
+            child5
+          </child>
+          <child>
+            child6
+          </child>
+          <child>
+            child3
+          </child>
+        </childCollection>
+      </value>
+      <payload>
+        <filepath>
+          ../XmlElementParts
+        </filepath>
+        <categoryList>
+          <category>
+            categ1
+          </category>
+          <category>
+            categ6
+          </category>
+        </categoryList>
+      </payload>
+    </dbRecord>
+  </db>
